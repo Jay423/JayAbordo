@@ -1,0 +1,63 @@
+
+.masthead {
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#header {
+    font-size: 6rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.color-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .masthead {
+        min-height: 30vh;
+    }
+}
+
+.homeheader {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#navb {
+    width: 100%;
+    background-image: linear-gradient(to right, #37864E, #C0B77C);
+}
+.nav-link {
+    color: white!important;
+    font-size: large;
+}
+
+#carousel {
+    margin: 0;
+}
+
+.mainhead {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#body {
+    position: relative; 
+}
+
+.head3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#cardtext {
+    color: black;
+}
+
+#icons {
+    color: black;
+}
